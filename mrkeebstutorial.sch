@@ -489,16 +489,7 @@ $EndComp
 Wire Wire Line
 	3825 2400 3825 2300
 Wire Wire Line
-	3825 2300 3300 2300
-Connection ~ 3300 2300
-Wire Wire Line
 	3475 2950 3300 2950
-Wire Wire Line
-	3300 2950 3300 2300
-Wire Wire Line
-	3300 2300 3300 1975
-Wire Wire Line
-	3300 2300 2900 2300
 Text GLabel 3300 1975 1    50   Input ~ 0
 Col2
 $Comp
@@ -526,16 +517,7 @@ $EndComp
 Wire Wire Line
 	4750 2400 4750 2300
 Wire Wire Line
-	4750 2300 4225 2300
-Connection ~ 4225 2300
-Wire Wire Line
 	4400 2950 4225 2950
-Wire Wire Line
-	4225 2950 4225 2300
-Wire Wire Line
-	4225 2300 4225 1975
-Wire Wire Line
-	4225 2300 3825 2300
 Text GLabel 4225 1975 1    50   Input ~ 0
 Col3
 $Comp
@@ -552,16 +534,7 @@ $EndComp
 Wire Wire Line
 	5675 2400 5675 2300
 Wire Wire Line
-	5675 2300 5150 2300
-Connection ~ 5150 2300
-Wire Wire Line
 	5325 2950 5150 2950
-Wire Wire Line
-	5150 2950 5150 2300
-Wire Wire Line
-	5150 2300 5150 1975
-Wire Wire Line
-	5150 2300 4750 2300
 Text GLabel 5150 1975 1    50   Input ~ 0
 Col4
 $Comp
@@ -589,16 +562,7 @@ $EndComp
 Wire Wire Line
 	6600 2400 6600 2300
 Wire Wire Line
-	6600 2300 6075 2300
-Connection ~ 6075 2300
-Wire Wire Line
 	6250 2950 6075 2950
-Wire Wire Line
-	6075 2950 6075 2300
-Wire Wire Line
-	6075 2300 6075 1975
-Wire Wire Line
-	6075 2300 5675 2300
 Text GLabel 6075 1975 1    50   Input ~ 0
 Col5
 $Comp
@@ -626,16 +590,7 @@ $EndComp
 Wire Wire Line
 	7525 2400 7525 2300
 Wire Wire Line
-	7525 2300 7000 2300
-Connection ~ 7000 2300
-Wire Wire Line
 	7175 2950 7000 2950
-Wire Wire Line
-	7000 2950 7000 2300
-Wire Wire Line
-	7000 2300 7000 1975
-Wire Wire Line
-	7000 2300 6600 2300
 Text GLabel 7000 1975 1    50   Input ~ 0
 Col6
 $Comp
@@ -662,13 +617,8 @@ F 3 "~" V 8450 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8450 2400 8450 2300
-Connection ~ 7925 2300
 Wire Wire Line
 	8100 2950 7925 2950
-Wire Wire Line
-	7925 2950 7925 2300
-Wire Wire Line
-	7925 2300 7525 2300
 Text GLabel 7925 1975 1    50   Input ~ 0
 Col7
 Connection ~ 3825 2300
@@ -710,14 +660,7 @@ F 3 "~" V 9375 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8850 2025 8850 2300
-Connection ~ 9775 2300
-Wire Wire Line
 	9950 2950 9775 2950
-Wire Wire Line
-	9775 2950 9775 2300
-Wire Wire Line
-	9775 2300 9775 1975
 $Comp
 L acheronSymbols:MXSwitch SW8
 U 1 1 5F14C1E3
@@ -734,16 +677,7 @@ Col9
 Text GLabel 8850 2025 1    50   Input ~ 0
 Col8
 Wire Wire Line
-	7925 2300 7925 1975
-Wire Wire Line
-	8450 2300 7925 2300
-Wire Wire Line
-	8850 2300 8450 2300
-Connection ~ 8850 2300
-Wire Wire Line
 	9375 2400 9375 2300
-Wire Wire Line
-	9375 2300 9775 2300
 $Comp
 L Device:D_Small D9
 U 1 1 5F14C1FD
@@ -757,8 +691,6 @@ F 3 "~" V 10300 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10300 2400 10300 2300
-Wire Wire Line
-	10300 2300 9775 2300
 $Comp
 L Device:D_Small D10
 U 1 1 5F14C213
@@ -773,16 +705,7 @@ $EndComp
 Wire Wire Line
 	11225 2400 11225 2300
 Wire Wire Line
-	11225 2300 10700 2300
-Connection ~ 10700 2300
-Wire Wire Line
 	10875 2950 10700 2950
-Wire Wire Line
-	10700 2950 10700 2300
-Wire Wire Line
-	10700 2300 10700 1975
-Wire Wire Line
-	10700 2300 10300 2300
 $Comp
 L acheronSymbols:MXSwitch SW11
 U 1 1 5F14C223
@@ -808,16 +731,7 @@ $EndComp
 Wire Wire Line
 	12150 2400 12150 2300
 Wire Wire Line
-	12150 2300 11625 2300
-Connection ~ 11625 2300
-Wire Wire Line
 	11800 2950 11625 2950
-Wire Wire Line
-	11625 2950 11625 2300
-Wire Wire Line
-	11625 2300 11625 1975
-Wire Wire Line
-	11625 2300 11225 2300
 $Comp
 L acheronSymbols:MXSwitch SW12
 U 1 1 5F14C239
@@ -843,16 +757,7 @@ $EndComp
 Wire Wire Line
 	13075 2400 13075 2300
 Wire Wire Line
-	13075 2300 12550 2300
-Connection ~ 12550 2300
-Wire Wire Line
 	12725 2950 12550 2950
-Wire Wire Line
-	12550 2950 12550 2300
-Wire Wire Line
-	12550 2300 12550 1975
-Wire Wire Line
-	12550 2300 12150 2300
 $Comp
 L acheronSymbols:MXSwitch SW13
 U 1 1 5F14C24F
@@ -878,22 +783,13 @@ $EndComp
 Wire Wire Line
 	14000 2400 14000 2300
 Wire Wire Line
-	14000 2300 13475 2300
-Connection ~ 13475 2300
-Wire Wire Line
 	13650 2950 13475 2950
-Wire Wire Line
-	13475 2950 13475 2300
-Wire Wire Line
-	13475 2300 13475 1975
-Wire Wire Line
-	13475 2300 13075 2300
 $Comp
 L acheronSymbols:MXSwitch SW14
 U 1 1 5F14C265
 P 14925 2950
 F 0 "SW14" H 14850 2975 50  0000 L CNN
-F 1 "Backspace" H 14775 2875 39  0000 L CNN
+F 1 "Backspace_200" H 14725 2875 39  0000 L CNN
 F 2 "acheron_MX:MX100" H 14925 2950 50  0001 C CNN
 F 3 "" H 14925 2950 50  0001 C CNN
 	1    14925 2950
@@ -912,13 +808,6 @@ F 3 "~" V 14925 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14925 2400 14925 2300
-Connection ~ 14400 2300
-Wire Wire Line
-	14400 2950 14400 2300
-Wire Wire Line
-	14400 2300 14400 1975
-Wire Wire Line
-	14400 2300 14000 2300
 $Comp
 L acheronSymbols:MXSwitch SW15
 U 1 1 5F15660D
@@ -943,23 +832,11 @@ F 3 "~" V 15825 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15825 2400 15825 2300
-Wire Wire Line
-	15825 2300 15300 2300
-Connection ~ 15300 2300
-Wire Wire Line
-	15300 2950 15300 2300
-Wire Wire Line
-	15300 2300 15300 1975
-Wire Wire Line
-	14400 2300 14925 2300
 Connection ~ 10300 2300
 Connection ~ 11225 2300
 Connection ~ 12150 2300
-Connection ~ 13075 2300
 Connection ~ 14000 2300
 Connection ~ 14925 2300
-Wire Wire Line
-	14925 2300 15300 2300
 $Comp
 L acheronSymbols:MXSwitch SW10
 U 1 1 5F14C20D
@@ -994,8 +871,6 @@ Text GLabel 14400 1975 1    50   Input ~ 0
 Col14
 Text GLabel 15300 1975 1    50   Input ~ 0
 Col15
-Wire Wire Line
-	9375 2300 8850 2300
 Connection ~ 9375 2300
 Wire Wire Line
 	8850 2950 9025 2950
@@ -1024,16 +899,7 @@ $EndComp
 Wire Wire Line
 	2900 3400 2900 3325
 Wire Wire Line
-	2900 3325 2500 3325
-Wire Wire Line
 	2550 3950 2500 3950
-Wire Wire Line
-	2500 3950 2500 3325
-Connection ~ 2500 3325
-Wire Wire Line
-	2500 3325 2500 2950
-Wire Wire Line
-	2500 3325 1875 3325
 Text GLabel 1875 3325 0    50   Input ~ 0
 Row2
 Wire Wire Line
@@ -1392,17 +1258,6 @@ Connection ~ 13075 3325
 Connection ~ 14000 3325
 Connection ~ 14925 3325
 $Comp
-L acheronSymbols:MXSwitch SW16
-U 1 1 5F425366
-P 2900 3950
-F 0 "SW16" H 2825 3975 50  0000 L CNN
-F 1 "Tab" H 2850 3875 39  0000 L CNN
-F 2 "acheron_MX:MX100" H 2900 3950 50  0001 C CNN
-F 3 "" H 2900 3950 50  0001 C CNN
-	1    2900 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L acheronSymbols:MXSwitch SW22
 U 1 1 5F4253DD
 P 8450 3950
@@ -1488,14 +1343,7 @@ $EndComp
 Wire Wire Line
 	2900 4400 2900 4325
 Wire Wire Line
-	2900 4325 2500 4325
-Wire Wire Line
 	2550 4950 2500 4950
-Connection ~ 2500 4325
-Wire Wire Line
-	2500 4325 2500 3950
-Wire Wire Line
-	2500 4325 1875 4325
 Text GLabel 1875 4325 0    50   Input ~ 0
 Row3
 Connection ~ 2900 4325
@@ -1846,8 +1694,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 4950 5150 3950
 Wire Wire Line
-	2500 4950 2500 4325
-Wire Wire Line
 	2900 5400 2900 5325
 Connection ~ 2900 5325
 Wire Wire Line
@@ -1906,8 +1752,6 @@ Wire Wire Line
 	8450 4325 9375 4325
 Wire Wire Line
 	8450 3325 9375 3325
-Wire Wire Line
-	8850 2300 8850 2950
 Connection ~ 8850 2950
 Wire Wire Line
 	8850 2950 8850 3950
@@ -1922,7 +1766,6 @@ Wire Wire Line
 	1875 5325 2900 5325
 Connection ~ 3300 4950
 Connection ~ 3300 3950
-Connection ~ 3300 2950
 Connection ~ 4225 2950
 Connection ~ 4225 3950
 Wire Wire Line
@@ -2296,7 +2139,7 @@ L acheronSymbols:MXSwitch SW?
 U 1 1 5F114E61
 P 14000 5950
 F 0 "SW?" H 13925 5975 50  0000 L CNN
-F 1 "R-shift" H 13900 5875 39  0000 L CNN
+F 1 "R-shift_175" H 13825 5900 39  0000 L CNN
 F 2 "acheron_MX:MX100" H 14000 5950 50  0001 C CNN
 F 3 "" H 14000 5950 50  0001 C CNN
 	1    14000 5950
@@ -2498,7 +2341,7 @@ L acheronSymbols:MXSwitch SW?
 U 1 1 5F50BF17
 P 14925 4950
 F 0 "SW?" H 14850 4975 50  0000 L CNN
-F 1 "Enter" H 14850 4875 39  0000 L CNN
+F 1 "Enter_2.25" H 14775 4875 39  0000 L CNN
 F 2 "acheron_MX:MX100" H 14925 4950 50  0001 C CNN
 F 3 "" H 14925 4950 50  0001 C CNN
 	1    14925 4950
@@ -2674,7 +2517,7 @@ L acheronSymbols:MXSwitch SW?
 U 1 1 5F114E37
 P 2900 5950
 F 0 "SW?" H 2825 5975 50  0000 L CNN
-F 1 "Shift" H 2775 5875 79  0000 L CNN
+F 1 "LShift_225" H 2600 5850 79  0000 L CNN
 F 2 "acheron_MX:MX100" H 2900 5950 50  0001 C CNN
 F 3 "" H 2900 5950 50  0001 C CNN
 	1    2900 5950
@@ -2709,4 +2552,81 @@ Wire Wire Line
 Text GLabel 1750 6400 0    50   Input ~ 0
 Row5
 Connection ~ 13475 5950
+$Comp
+L acheronSymbols:MXSwitch SW16
+U 1 1 5F425366
+P 2900 3950
+F 0 "SW16" H 2825 3975 50  0000 L CNN
+F 1 "Tab_150" H 2800 3875 39  0000 L CNN
+F 2 "acheron_MX:MX100" H 2900 3950 50  0001 C CNN
+F 3 "" H 2900 3950 50  0001 C CNN
+	1    2900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 1975 14400 2950
+Wire Wire Line
+	14000 2300 14925 2300
+Wire Wire Line
+	13075 2300 14000 2300
+Wire Wire Line
+	13475 1975 13475 2950
+Connection ~ 13075 2300
+Wire Wire Line
+	12550 1975 12550 2950
+Wire Wire Line
+	12150 2300 13075 2300
+Wire Wire Line
+	11225 2300 12150 2300
+Wire Wire Line
+	11625 1975 11625 2950
+Wire Wire Line
+	14925 2300 15825 2300
+Wire Wire Line
+	15300 1975 15300 2950
+Wire Wire Line
+	10300 2300 11225 2300
+Wire Wire Line
+	10700 1975 10700 2950
+Wire Wire Line
+	9775 1975 9775 2950
+Wire Wire Line
+	9375 2300 10300 2300
+Wire Wire Line
+	8850 2025 8850 2950
+Wire Wire Line
+	8450 2300 9375 2300
+Wire Wire Line
+	7925 1975 7925 2950
+Wire Wire Line
+	7525 2300 8450 2300
+Wire Wire Line
+	6600 2300 7525 2300
+Wire Wire Line
+	7000 1975 7000 2950
+Wire Wire Line
+	5675 2300 6600 2300
+Wire Wire Line
+	6075 1975 6075 2950
+Wire Wire Line
+	4750 2300 5675 2300
+Wire Wire Line
+	5150 1975 5150 2950
+Wire Wire Line
+	3825 2300 4750 2300
+Wire Wire Line
+	4225 1975 4225 2950
+Connection ~ 3300 2950
+Wire Wire Line
+	2900 2300 3825 2300
+Wire Wire Line
+	3300 1975 3300 2950
+Wire Wire Line
+	1875 3325 2900 3325
+Wire Wire Line
+	2500 2950 2500 3950
+Wire Wire Line
+	1875 4325 2900 4325
+Wire Wire Line
+	2500 3950 2500 4950
 $EndSCHEMATC
