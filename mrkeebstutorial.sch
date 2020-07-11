@@ -53,46 +53,41 @@ Wire Wire Line
 Text GLabel 2500 2025 1    50   Input ~ 0
 Col1
 Wire Wire Line
-	-3275 400  -3275 325 
-Wire Wire Line
-	-3275 125  -3150 125 
-Connection ~ -3275 125 
+	-3400 475  -3400 400 
 Wire Wire Line
 	-3150 125  -3150 -100
-Wire Wire Line
-	-3400 125  -3275 125 
 $Comp
 L Device:R_Small R2
 U 1 1 5F0D206C
-P -3275 225
-F 0 "R2" H -3216 271 50  0000 L CNN
-F 1 "10k" H -3216 180 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -3275 225 50  0001 C CNN
-F 3 "~" H -3275 225 50  0001 C CNN
-	1    -3275 225 
+P -3400 300
+F 0 "R2" H -3341 346 50  0000 L CNN
+F 1 "330" H -3341 255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -3400 300 50  0001 C CNN
+F 3 "~" H -3400 300 50  0001 C CNN
+	1    -3400 300 
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 5F0AD905
-P -3150 -425
-F 0 "R1" H -3091 -379 50  0000 L CNN
-F 1 "10k" H -3091 -470 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -3150 -425 50  0001 C CNN
-F 3 "~" H -3150 -425 50  0001 C CNN
-	1    -3150 -425
+P -3300 -400
+F 0 "R1" H -3225 -300 50  0000 L CNN
+F 1 "10k" H -3250 -400 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -3300 -400 50  0001 C CNN
+F 3 "~" H -3300 -400 50  0001 C CNN
+	1    -3300 -400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-3400 -300 -3150 -300
+	-3400 -300 -3300 -300
 Wire Wire Line
 	-3400 -275 -3400 -300
 $Comp
 L Switch:SW_Push SWP1
 U 1 1 5F0AD91B
 P -3400 -75
-F 0 "SWP1" V -3375 225 50  0000 R CNN
-F 1 "SW_Push" V -3475 325 50  0000 R CNN
+F 0 "SWP1" H -3300 175 50  0000 R CNN
+F 1 "SW_Push" H -3200 100 50  0000 R CNN
 F 2 "random-keyboard-parts:SKQG-1155865" H -3400 125 50  0001 C CNN
 F 3 "~" H -3400 125 50  0001 C CNN
 	1    -3400 -75 
@@ -103,8 +98,6 @@ RST
 Wire Wire Line
 	-3150 -300 -3000 -300
 Connection ~ -3150 -300
-Wire Wire Line
-	-3150 -325 -3150 -300
 $Comp
 L Device:C_Small C5
 U 1 1 5F0AD915
@@ -117,27 +110,27 @@ F 3 "~" H -3150 -200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	-3150 -600 -3150 -525
+	-3300 -575 -3300 -500
 $Comp
 L power:GND #PWR04
 U 1 1 5F0AD90D
-P -3275 400
-F 0 "#PWR04" H -3275 150 50  0001 C CNN
-F 1 "GND" H -3270 227 50  0000 C CNN
-F 2 "" H -3275 400 50  0001 C CNN
-F 3 "" H -3275 400 50  0001 C CNN
-	1    -3275 400 
+P -3400 475
+F 0 "#PWR04" H -3400 225 50  0001 C CNN
+F 1 "GND" H -3395 302 50  0000 C CNN
+F 2 "" H -3400 475 50  0001 C CNN
+F 3 "" H -3400 475 50  0001 C CNN
+	1    -3400 475 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR02
 U 1 1 5F0AD8FF
-P -3150 -600
-F 0 "#PWR02" H -3150 -750 50  0001 C CNN
-F 1 "+5V" H -3135 -427 50  0000 C CNN
-F 2 "" H -3150 -600 50  0001 C CNN
-F 3 "" H -3150 -600 50  0001 C CNN
-	1    -3150 -600
+P -3300 -575
+F 0 "#PWR02" H -3300 -725 50  0001 C CNN
+F 1 "+5V" H -3285 -402 50  0000 C CNN
+F 2 "" H -3300 -575 50  0001 C CNN
+F 3 "" H -3300 -575 50  0001 C CNN
+	1    -3300 -575
 	1    0    0    -1  
 $EndComp
 Text GLabel 1825 2300 0    50   Input ~ 0
@@ -2629,4 +2622,20 @@ Wire Wire Line
 	1875 4325 2900 4325
 Wire Wire Line
 	2500 3950 2500 4950
+$Comp
+L power:GND #PWR?
+U 1 1 5F0E6A56
+P -3150 125
+F 0 "#PWR?" H -3150 -125 50  0001 C CNN
+F 1 "GND" H -3145 -48 50  0000 C CNN
+F 2 "" H -3150 125 50  0001 C CNN
+F 3 "" H -3150 125 50  0001 C CNN
+	1    -3150 125 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3400 125  -3400 200 
+Connection ~ -3300 -300
+Wire Wire Line
+	-3300 -300 -3150 -300
 $EndSCHEMATC
