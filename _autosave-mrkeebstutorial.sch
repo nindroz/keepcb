@@ -80,19 +80,6 @@ F 3 "~" H -3300 -400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	-3400 -300 -3300 -300
-Wire Wire Line
-	-3400 -275 -3400 -300
-$Comp
-L Switch:SW_Push SWP1
-U 1 1 5F0AD91B
-P -3400 -75
-F 0 "SWP1" H -3300 175 50  0000 R CNN
-F 1 "SW_Push" H -3200 100 50  0000 R CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H -3400 125 50  0001 C CNN
-F 3 "~" H -3400 125 50  0001 C CNN
-	1    -3400 -75 
-	0    -1   -1   0   
-$EndComp
 Text GLabel -3000 -300 2    50   Output ~ 0
 RST
 Wire Wire Line
@@ -2677,4 +2664,17 @@ Text GLabel -1000 1400 2    50   Input ~ 0
 Col1
 Text GLabel -1000 2300 2    50   Input ~ 0
 Col9
+$Comp
+L Switch:SW_Push SWP1
+U 1 1 5F0AD91B
+P -3400 -75
+F 0 "SWP1" H -3300 175 50  0000 R CNN
+F 1 "SW_Push" H -3200 100 50  0000 R CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H -3400 125 50  0001 C CNN
+F 3 "~" H -3400 125 50  0001 C CNN
+	1    -3400 -75 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3400 -275 -3400 -300
 $EndSCHEMATC

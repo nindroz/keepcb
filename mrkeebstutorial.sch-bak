@@ -2641,73 +2641,40 @@ Wire Wire Line
 Connection ~ 14000 6400
 Wire Wire Line
 	14000 6400 13075 6400
-$Comp
-L promicro:ProMicro U?
-U 1 1 5F17208E
-P 300 975
-F 0 "U?" H 300 2012 60  0000 C CNN
-F 1 "ProMicro" H 300 1906 60  0000 C CNN
-F 2 "" H 400 -75 60  0000 C CNN
-F 3 "" H 400 -75 60  0000 C CNN
-	1    300  975 
-	1    0    0    -1  
-$EndComp
-Text GLabel 1000 1325 2    50   Input ~ 0
+Text GLabel -1000 3300 2    50   Input ~ 0
 Row3
-Text GLabel 1000 1225 2    50   Input ~ 0
+Text GLabel -1000 3200 2    50   Input ~ 0
 Row2
-Text GLabel 1000 1125 2    50   Input ~ 0
+Text GLabel -1000 3100 2    50   Input ~ 0
 Row1
-Text GLabel 1000 1025 2    50   Input ~ 0
+Text GLabel -1000 3000 2    50   Input ~ 0
 Col15
-Text GLabel 1000 925  2    50   Input ~ 0
+Text GLabel -1000 2900 2    50   Input ~ 0
 Col14
-Text GLabel 1000 825  2    50   Input ~ 0
+Text GLabel -1000 2800 2    50   Input ~ 0
 Col13
-Text GLabel 1000 725  2    50   Input ~ 0
+Text GLabel -1000 2700 2    50   Input ~ 0
 Col12
-Text GLabel 1000 625  2    50   Input ~ 0
+Text GLabel -1000 2600 2    50   Input ~ 0
 Col11
-Text GLabel -400 1325 0    50   Input ~ 0
+Text GLabel -1000 2400 2    50   Input ~ 0
 Col10
-Text GLabel -400 1225 0    50   Input ~ 0
-Col9
-Text GLabel -400 1125 0    50   Input ~ 0
+Text GLabel -1000 2100 2    50   Input ~ 0
 Col8
-Text GLabel -400 1025 0    50   Input ~ 0
+Text GLabel -1000 2000 2    50   Input ~ 0
 Col7
-Text GLabel -400 925  0    50   Input ~ 0
+Text GLabel -1000 1900 2    50   Input ~ 0
 Col6
-Text GLabel -400 825  0    50   Input ~ 0
+Text GLabel -1000 1800 2    50   Input ~ 0
 Col5
-Text GLabel -400 725  0    50   Input ~ 0
+Text GLabel -1000 1700 2    50   Input ~ 0
 Col4
-Text GLabel -400 625  0    50   Input ~ 0
+Text GLabel -1000 1600 2    50   Input ~ 0
 Col3
-Text GLabel -400 325  0    50   Input ~ 0
+Text GLabel -1000 1500 2    50   Input ~ 0
 Col2
-Text GLabel -400 225  0    50   Input ~ 0
+Text GLabel -1000 1400 2    50   Input ~ 0
 Col1
-$Comp
-L power:GND #PWR?
-U 1 1 5F1E04D7
-P -400 525
-F 0 "#PWR?" H -400 275 50  0001 C CNN
-F 1 "GND" V -395 397 50  0000 R CNN
-F 2 "" H -400 525 50  0001 C CNN
-F 3 "" H -400 525 50  0001 C CNN
-	1    -400 525 
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F1DFCA7
-P -400 425
-F 0 "#PWR?" H -400 175 50  0001 C CNN
-F 1 "GND" V -395 297 50  0000 R CNN
-F 2 "" H -400 425 50  0001 C CNN
-F 3 "" H -400 425 50  0001 C CNN
-	1    -400 425 
-	0    1    1    0   
-$EndComp
+Text GLabel -1000 2300 2    50   Input ~ 0
+Col9
 $EndSCHEMATC
