@@ -2610,7 +2610,7 @@ Wire Wire Line
 	14000 6400 13075 6400
 Text GLabel -1000 2900 2    50   Input ~ 0
 Row3
-Text GLabel -1000 3000 2    50   Input ~ 0
+Text GLabel -1000 3900 2    50   Input ~ 0
 Row2
 Text GLabel -1000 3100 2    50   Input ~ 0
 Row1
@@ -2624,8 +2624,6 @@ Text GLabel -1000 1900 2    50   Input ~ 0
 Col12
 Text GLabel -1000 2300 2    50   Input ~ 0
 Col10
-Text GLabel -1000 2100 2    50   Input ~ 0
-Col8
 Text GLabel -1000 2600 2    50   Input ~ 0
 Col7
 Text GLabel -1000 2700 2    50   Input ~ 0
@@ -2651,7 +2649,7 @@ Wire Wire Line
 	15300 3950 15300 4950
 Wire Wire Line
 	14925 4325 15850 4325
-Text GLabel -1000 1700 2    50   Input ~ 0
+Text GLabel -1000 2100 2    50   Input ~ 0
 Col1
 Text GLabel -1000 1400 2    50   Input ~ 0
 Col2
@@ -2670,6 +2668,8 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    -1600 2900
 	1    0    0    -1  
 $EndComp
+Text GLabel -1000 3000 2    50   Input ~ 0
+Col8
 Text GLabel -1000 2000 2    50   Input ~ 0
 Col11
 $EndSCHEMATC
