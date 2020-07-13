@@ -443,17 +443,6 @@ Wire Wire Line
 Wire Wire Line
 	-1600 1100 -1600 950 
 Connection ~ -1600 1100
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5F06311B
-P -1600 2900
-F 0 "U1" H -1700 2850 50  0000 C CNN
-F 1 "ATmega32U4-AU" H -1700 2750 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H -1600 2900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H -1600 2900 50  0001 C CNN
-	1    -1600 2900
-	1    0    0    -1  
-$EndComp
 Connection ~ 2900 2300
 $Comp
 L Device:D_Small D2
@@ -2619,41 +2608,31 @@ Wire Wire Line
 Connection ~ 14000 6400
 Wire Wire Line
 	14000 6400 13075 6400
-Text GLabel -1000 3300 2    50   Input ~ 0
+Text GLabel -1000 2900 2    50   Input ~ 0
 Row3
-Text GLabel -1000 3200 2    50   Input ~ 0
+Text GLabel -1000 3000 2    50   Input ~ 0
 Row2
 Text GLabel -1000 3100 2    50   Input ~ 0
 Row1
-Text GLabel -1000 3000 2    50   Input ~ 0
+Text GLabel -1000 3200 2    50   Input ~ 0
 Col15
-Text GLabel -1000 2900 2    50   Input ~ 0
+Text GLabel -1000 3300 2    50   Input ~ 0
 Col14
-Text GLabel -1000 2800 2    50   Input ~ 0
+Text GLabel -1000 1800 2    50   Input ~ 0
 Col13
-Text GLabel -1000 2700 2    50   Input ~ 0
+Text GLabel -1000 1900 2    50   Input ~ 0
 Col12
-Text GLabel -1000 2600 2    50   Input ~ 0
-Col11
-Text GLabel -1000 2400 2    50   Input ~ 0
+Text GLabel -1000 2300 2    50   Input ~ 0
 Col10
 Text GLabel -1000 2100 2    50   Input ~ 0
 Col8
-Text GLabel -1000 2000 2    50   Input ~ 0
+Text GLabel -1000 2600 2    50   Input ~ 0
 Col7
-Text GLabel -1000 1900 2    50   Input ~ 0
+Text GLabel -1000 2700 2    50   Input ~ 0
 Col6
-Text GLabel -1000 1800 2    50   Input ~ 0
+Text GLabel -1000 2800 2    50   Input ~ 0
 Col5
-Text GLabel -1000 1700 2    50   Input ~ 0
-Col4
-Text GLabel -1000 1600 2    50   Input ~ 0
-Col3
-Text GLabel -1000 1500 2    50   Input ~ 0
-Col2
-Text GLabel -1000 1400 2    50   Input ~ 0
-Col1
-Text GLabel -1000 2300 2    50   Input ~ 0
+Text GLabel -1000 2400 2    50   Input ~ 0
 Col9
 $Comp
 L Switch:SW_Push SWP1
@@ -2672,4 +2651,25 @@ Wire Wire Line
 	15300 3950 15300 4950
 Wire Wire Line
 	14925 4325 15850 4325
+Text GLabel -1000 1700 2    50   Input ~ 0
+Col1
+Text GLabel -1000 1400 2    50   Input ~ 0
+Col2
+Text GLabel -1000 1500 2    50   Input ~ 0
+Col3
+Text GLabel -1000 1600 2    50   Input ~ 0
+Col4
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5F06311B
+P -1600 2900
+F 0 "U1" H -1700 2850 50  0000 C CNN
+F 1 "ATmega32U4-AU" H -1700 2750 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H -1600 2900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H -1600 2900 50  0001 C CNN
+	1    -1600 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel -1000 2000 2    50   Input ~ 0
+Col11
 $EndSCHEMATC

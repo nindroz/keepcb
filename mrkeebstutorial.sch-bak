@@ -80,19 +80,6 @@ F 3 "~" H -3300 -400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	-3400 -300 -3300 -300
-Wire Wire Line
-	-3400 -275 -3400 -300
-$Comp
-L Switch:SW_Push SWP1
-U 1 1 5F0AD91B
-P -3400 -75
-F 0 "SWP1" H -3300 175 50  0000 R CNN
-F 1 "SW_Push" H -3200 100 50  0000 R CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H -3400 125 50  0001 C CNN
-F 3 "~" H -3400 125 50  0001 C CNN
-	1    -3400 -75 
-	0    -1   -1   0   
-$EndComp
 Text GLabel -3000 -300 2    50   Output ~ 0
 RST
 Wire Wire Line
@@ -456,17 +443,6 @@ Wire Wire Line
 Wire Wire Line
 	-1600 1100 -1600 950 
 Connection ~ -1600 1100
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5F06311B
-P -1600 2900
-F 0 "U1" H -1700 2850 50  0000 C CNN
-F 1 "ATmega32U4-AU" H -1700 2750 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H -1600 2900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H -1600 2900 50  0001 C CNN
-	1    -1600 2900
-	1    0    0    -1  
-$EndComp
 Connection ~ 2900 2300
 $Comp
 L Device:D_Small D2
@@ -1652,8 +1628,6 @@ Wire Wire Line
 	15475 2950 15300 2950
 Wire Wire Line
 	15300 2950 15300 3950
-Wire Wire Line
-	15300 3950 15300 4325
 Connection ~ 15300 3950
 $Comp
 L acheronSymbols:MXSwitch SW32
@@ -2352,10 +2326,7 @@ F 3 "~" V 15850 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	15300 4325 15850 4325
-Wire Wire Line
 	15850 4325 15850 4400
-Connection ~ 15300 4325
 Connection ~ 14400 3950
 Wire Wire Line
 	14400 3950 14400 4950
@@ -2364,8 +2335,6 @@ Wire Wire Line
 	14400 4950 14400 5950
 Wire Wire Line
 	13475 3950 13475 5950
-Wire Wire Line
-	14925 4325 15300 4325
 Connection ~ 14925 4325
 Connection ~ 13075 4325
 Wire Wire Line
@@ -2374,8 +2343,6 @@ Wire Wire Line
 	13075 4400 13075 4325
 Wire Wire Line
 	13075 4325 14925 4325
-Wire Wire Line
-	15300 4325 15300 4950
 Wire Wire Line
 	15300 4950 15500 4950
 Connection ~ 15300 4950
@@ -2641,7 +2608,7 @@ Wire Wire Line
 Connection ~ 14000 6400
 Wire Wire Line
 	14000 6400 13075 6400
-Text GLabel -1000 3300 2    50   Input ~ 0
+Text GLabel -1000 2900 2    50   Input ~ 0
 Row3
 Text GLabel -1000 3200 2    50   Input ~ 0
 Row2
@@ -2649,32 +2616,60 @@ Text GLabel -1000 3100 2    50   Input ~ 0
 Row1
 Text GLabel -1000 3000 2    50   Input ~ 0
 Col15
-Text GLabel -1000 2900 2    50   Input ~ 0
+Text GLabel -1000 3300 2    50   Input ~ 0
 Col14
-Text GLabel -1000 2800 2    50   Input ~ 0
+Text GLabel -1000 1800 2    50   Input ~ 0
 Col13
-Text GLabel -1000 2700 2    50   Input ~ 0
+Text GLabel -1000 1900 2    50   Input ~ 0
 Col12
-Text GLabel -1000 2600 2    50   Input ~ 0
-Col11
-Text GLabel -1000 2400 2    50   Input ~ 0
+Text GLabel -1000 2300 2    50   Input ~ 0
 Col10
 Text GLabel -1000 2100 2    50   Input ~ 0
 Col8
-Text GLabel -1000 2000 2    50   Input ~ 0
+Text GLabel -1000 2600 2    50   Input ~ 0
 Col7
-Text GLabel -1000 1900 2    50   Input ~ 0
+Text GLabel -1000 2700 2    50   Input ~ 0
 Col6
-Text GLabel -1000 1800 2    50   Input ~ 0
+Text GLabel -1000 2800 2    50   Input ~ 0
 Col5
-Text GLabel -1000 1700 2    50   Input ~ 0
-Col4
-Text GLabel -1000 1600 2    50   Input ~ 0
-Col3
-Text GLabel -1000 1500 2    50   Input ~ 0
-Col2
-Text GLabel -1000 1400 2    50   Input ~ 0
-Col1
-Text GLabel -1000 2300 2    50   Input ~ 0
+Text GLabel -1000 2400 2    50   Input ~ 0
 Col9
+$Comp
+L Switch:SW_Push SWP1
+U 1 1 5F0AD91B
+P -3400 -75
+F 0 "SWP1" H -3300 175 50  0000 R CNN
+F 1 "SW_Push" H -3200 100 50  0000 R CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H -3400 125 50  0001 C CNN
+F 3 "~" H -3400 125 50  0001 C CNN
+	1    -3400 -75 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3400 -275 -3400 -300
+Wire Wire Line
+	15300 3950 15300 4950
+Wire Wire Line
+	14925 4325 15850 4325
+Text GLabel -1000 1700 2    50   Input ~ 0
+Col1
+Text GLabel -1000 1400 2    50   Input ~ 0
+Col2
+Text GLabel -1000 1500 2    50   Input ~ 0
+Col3
+Text GLabel -1000 1600 2    50   Input ~ 0
+Col4
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5F06311B
+P -1600 2900
+F 0 "U1" H -1700 2850 50  0000 C CNN
+F 1 "ATmega32U4-AU" H -1700 2750 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H -1600 2900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H -1600 2900 50  0001 C CNN
+	1    -1600 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel -1000 2000 2    50   Input ~ 0
+Col11
 $EndSCHEMATC
