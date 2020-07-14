@@ -328,7 +328,7 @@ F 3 "~" H -2425 -500 50  0001 C CNN
 	1    -2425 -500
 	-1   0    0    1   
 $EndComp
-Text GLabel -2200 1400 0    50   Input ~ 0
+Text GLabel -1000 4200 2    50   Input ~ 0
 RST
 Wire Wire Line
 	-700 3500 -600 3500
@@ -2608,7 +2608,7 @@ Wire Wire Line
 	14000 6400 13075 6400
 Text GLabel -1000 2700 2    50   Input ~ 0
 Row3
-Text GLabel -1000 4300 2    50   Input ~ 0
+Text GLabel -1000 1400 2    50   Input ~ 0
 Row2
 Text GLabel -1000 3100 2    50   Input ~ 0
 Row1
@@ -2645,7 +2645,7 @@ Wire Wire Line
 	14925 4325 15850 4325
 Text GLabel -1000 2900 2    50   Input ~ 0
 Col1
-Text GLabel -1000 1400 2    50   Input ~ 0
+Text GLabel -1000 1500 2    50   Input ~ 0
 Col2
 Text GLabel -1000 3000 2    50   Input ~ 0
 Col8
@@ -2664,9 +2664,9 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    -1600 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel -1000 1600 2    50   Input ~ 0
+Text GLabel -1000 1700 2    50   Input ~ 0
 Col4
-Text GLabel -1000 1500 2    50   Input ~ 0
+Text GLabel -1000 1600 2    50   Input ~ 0
 Col3
 Text GLabel 1750 6400 0    50   Input ~ 0
 Row5
