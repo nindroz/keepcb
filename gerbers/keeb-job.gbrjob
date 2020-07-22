@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "5.1.6-c6e7f7d~87~ubuntu20.04.1"
     },
-    "CreationDate":  "2020-07-19T17:39:59-07:00"
+    "CreationDate":  "2020-07-22T13:43:27-07:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "mrkeebstutorial",
-      "GUID": "6d726b65-6562-4737-9475-746f7269616c",
+      "Name": "keeb",
+      "GUID": "6b656562-2e6b-4696-9361-645f70636258",
       "Revision": "rev?"
     },
     "Size":
@@ -40,37 +40,37 @@
   "FilesAttributes":
   [
     {
-      "Path":  "mrkeebstutorial-F_Cu.gtl",
+      "Path":  "keeb-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "mrkeebstutorial-B_Cu.gbl",
+      "Path":  "keeb-B_Cu.gbl",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "mrkeebstutorial-F_SilkS.gto",
+      "Path":  "keeb-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "mrkeebstutorial-B_SilkS.gbo",
+      "Path":  "keeb-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "mrkeebstutorial-F_Mask.gts",
+      "Path":  "keeb-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "mrkeebstutorial-B_Mask.gbs",
+      "Path":  "keeb-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "mrkeebstutorial-Edge_Cuts.gm1",
+      "Path":  "keeb-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
